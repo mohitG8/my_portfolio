@@ -26,6 +26,7 @@
   #profile,
   .section-container {
     display: block;
+    height: fit-content;
   }
   .arrow {
     display: none;
@@ -50,10 +51,10 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: fit-content;
   }
   #profile {
-    height: 83vh;
+    height: 50vh;
     margin-bottom: 0;
   }
   article {
